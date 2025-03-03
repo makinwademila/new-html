@@ -1,0 +1,129 @@
+.inputs {
+    margin: 10px;
+    padding: 10px;
+    padding-left: 100px;
+    flex-wrap: wrap;
+}
+
+input {
+    background-color: transparent;
+    border-color: rgb(65, 160, 132);
+    width: 80%;
+    height: 30px;
+    border-radius: 60px;
+    margin-top: 10px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-style: oblique;
+    margin-top: 0.5rem;
+}
+
+button:hover {
+    background-color: rgb(162, 22, 226);
+    transition: 1s ease-in-out;
+    animation-duration: 1s;
+}
+
+.buttons {
+    justify-content: center;
+}
+
+.button {
+    justify-content: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    color: rgb(118, 221, 140);
+}
+
+li {
+    color: transparent;
+}
+
+.menu-icon {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+}
+
+.menu-icon span {
+    width: 50px;
+    height: 5px;
+    background-color: transparent;
+    position: relative;
+    left: 10%;
+    transform: translate(-50%, -50%)
+}
+
+.drop-down-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    padding: 10px;
+    border: 1px solid #444;
+}
+
+.drop-down-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.drop-down-menu li {
+    padding: 10px;
+    border-bottom: 1px solid #444;
+}
+
+.drop-down-menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.drop-down-menu li a:hover {
+    color: transparent;
+}
+
+.menu-icon {
+    transition: transform 0.3s ease-in-out;
+}
+
+.menu-icon.active {
+    transform: rotate(45deg);
+}
+
+.menu-icon span:nth-child(1) {
+    top: 40%;
+}
+
+.menu-icon span:nth-child(3) {
+    top: 60%;
+}
+
+.drop-down-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    padding: 10px;
+    border: 1px solid #444;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.drop-down-menu ul {
+    list-style: none;
+    padding: 0;
+}

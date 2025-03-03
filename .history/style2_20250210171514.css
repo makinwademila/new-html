@@ -1,0 +1,50 @@
+.inputs {
+    margin: 10px;
+    padding: 10px;
+    padding-left: 100px;
+    flex-wrap: wrap;
+}
+
+input {
+    background-color: transparent;
+    border-color: rgb(65, 160, 132);
+    width: 80%;
+    height: 30px;
+    border-radius: 60px;
+    margin-top: 10px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-style: oblique;
+    margin-top: 0.5rem;
+}
+
+button:hover {
+    background-color: rgb(162, 22, 226);
+    transition: 1s ease-in-out;
+    animation-duration: 1s;
+}
+
+.buttons {
+    justify-content: center;
+}
+
+.button {
+    justify-content: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    color: rgb(118, 221, 140);
+}
+
+li {
+    color: transparent;
+}
