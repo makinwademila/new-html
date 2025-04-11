@@ -19,5 +19,19 @@ btnPopup.addEventListener('click', () => {
 });
 
 iconClose.addEventListener('click', () => {
-    wrapper.classList.open('index.html');
+    wrapper.classList.remove('active-popup');
 });
+
+function index() {
+    window.location.href = index.app.get('/orders', (req, res, next) => {
+            if (req.headers['authorization'] === 'abc123') {
+                next()
+            } else {
+                res.statusCode = 401;
+                res.send('Not allowed')
+            }
+        }, (req, res) => {
+            res.send('Protected route');
+        }
+
+    }

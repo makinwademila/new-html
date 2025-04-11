@@ -22,4 +22,6 @@ iconClose.addEventListener('click', () => {
     wrapper.classList.remove('active-popup');
 });
 
-alert = 'hey'
+function index() {
+    window.location.href = index.html
+};
