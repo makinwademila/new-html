@@ -62,6 +62,10 @@ img {
     border-radius: 20px;
 }
 
+.icon {
+    color: rgb(53, 102, 43);
+}
+
 .nav-menu {
     position: relative;
     top: 20px;

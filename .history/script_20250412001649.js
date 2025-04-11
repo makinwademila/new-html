@@ -1,0 +1,1 @@
+const loginlink = document.querySelector('#loginlink');

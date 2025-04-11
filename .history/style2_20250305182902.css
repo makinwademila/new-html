@@ -59,7 +59,7 @@ header {
 
 .wrapper {
     position: relative;
-    top: 5px;
+    /*top: -170px;*/
     width: 400px;
     height: 440px;
     background: transparent;
@@ -73,10 +73,11 @@ header {
     transition: transform .5s ease height .2 ease;
     overflow: hidden;
     transform: scale(1);
+    animation-name: close;
 }
 
 .wrapper.active {
-    height: 450px;
+    height: 520px;
 }
 
 .wrapper .form-box.login {
@@ -237,14 +238,6 @@ header {
     color: #162938;
     text-decoration: none;
     font-weight: 600;
-}
-
-.header.active-popup {
-    transform: scale(1);
-}
-
-.wrapper.active-popup {
-    transform: scale(1);
 }
 
 .login-register p a:hover {
