@@ -3,6 +3,6 @@ function index2() {
 }
 
 
-function opena() {
+window.open = function opena() {
     window.location.href = 'index2.html#account';
 }

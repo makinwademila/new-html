@@ -1,5 +1,5 @@
 function index() {
-    window.location.href = 'index.html'
+    window.location.href = index.html
 };
 const wrapper = document.querySelector('.wrapper');
 const loginlink = document.querySelector('.login-link');
